@@ -1,1 +1,0 @@
-Responsive CRM MVP built with React, TypeScript, Vite, and Supabase.Responsive CRM MVP built with React, TypeScript, Vite, and Supabase.Responsive CRM MVP built with React, TypeScript, Vite, and Supabase.
