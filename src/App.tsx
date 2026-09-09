@@ -1735,12 +1735,12 @@ function ActivityForm({
 
             <select
               value={form.type}
-              onChange={(event) =>
-                setForm((previous) => ({
-                  ...previous,
-                  type: event.target.value,
-                }))
-              }
+             onChange={(event) =>
+  setForm((previous) => ({
+    ...previous,
+    type: event.target.value as ActivityType,
+  }))
+}
             >
               {activityTypes.map((type) => (
                 <option key={type} value={type}>
