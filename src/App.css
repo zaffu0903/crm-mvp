@@ -1017,6 +1017,8 @@ td {
 .source-list,
 .performance-list,
 .conversion-list,
+.report-list,
+.conversion-report,
 .revenue-summary {
   padding: 15px 18px;
 }
