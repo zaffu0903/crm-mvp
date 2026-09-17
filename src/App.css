@@ -929,10 +929,9 @@ td {
   gap: 20px;
 }
 
-.report-card {
-  min-height: 280px;
+.report-card-body {
+  padding: 20px;
 }
-
 .report-filters {
   margin-bottom: 20px;
   padding: 20px;
