@@ -928,7 +928,59 @@ td {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+.report-list {
+  padding: 15px 18px;
+}
 
+.report-row {
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 2px;
+  border-bottom: 1px solid #f1f2f4;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.report-row:last-child {
+  border-bottom: 0;
+}
+
+.report-row strong {
+  color: #111827;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.conversion-report {
+  padding: 15px 18px;
+}
+
+.conversion-report > div {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #f1f2f4;
+}
+
+.conversion-report > div:last-child {
+  border-bottom: 0;
+}
+
+.conversion-report span {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.conversion-report strong {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 700;
+}
 .report-card-body {
   padding: 50px;
 }
